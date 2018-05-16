@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 // task-1
 var framesPerSec;
 var connectSingOfWords;
@@ -8,7 +8,7 @@ var lastPageNav;
 var admin, name;
  name = "Василий";
  admin = name;
- alert(admin);
+ console.log(admin); 
 // task-3
 var ourPlanetName = "Земля";
 var user = "Петя";
