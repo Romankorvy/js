@@ -12,7 +12,7 @@ app.use(express.static(__dirname + '/public/views'));
 app.get('/', (request, response) => {
   response.sendFile('index.html', { root: __dirname });
 });
-app.get('/:section/lesson-:num', (request, response) => {
+app.get('/:section/homework-:num', (request, response) => {
   response.sendFile('index.html', { root: __dirname + '/public/views/' + request.params.section + '/lesson-' + request.params.num });
 });
 
